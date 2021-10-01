@@ -22,6 +22,14 @@ $(document).ready(function () {
         $("#texto1").toggle();
     });
 
+    $("#traslado").click(function() {
+        $("#texto2").toggle()
+    });
+
+    $("#hotel").click(function() {
+        $("#texto3").toggle()
+    });
+
 
     //boton se torna rojo 
 
