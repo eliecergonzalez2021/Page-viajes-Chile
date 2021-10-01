@@ -33,6 +33,15 @@ nav .inicio {
 }
 
 
+
+/*Color textos targeta magallanes/carousel*/
+
+.titulo-magallanes {
+    color: #6CF70C;
+    font-family: 'Oswald', sans-serif;
+}
+
+
 /*Textos con font-family*/
 .titulo {
     font-family: 'Oswald', sans-serif;
