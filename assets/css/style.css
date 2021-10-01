@@ -1,11 +1,15 @@
+/*Inicio CCS*/
+
 body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Stick No Bills', sans-serif;
     background-color: #2E4053;
 }
 
+
+/*Color navbar*/
 .color-nav {
-    background-color: #2E4053;
+    background-color: #B87320;
     transition: all 1s ease;
 }
 
@@ -14,10 +18,22 @@ nav .inicio {
 }
 
 
+/*Color Iconos*/
 .color-icon {
     color: #fff;
 }
 
+
+.titulos-nav {
+    color: brown;
+}
+
+.footer-fin {
+    background-color: #B87320;
+}
+
+
+/*Textos con font-family*/
 .titulo {
     font-family: 'Oswald', sans-serif;
     
@@ -44,11 +60,15 @@ h2 {
     color: #fff;
 }
 
+
+
 .nav-img {
     width: 40px;
     height: 40px;
 }
 
+
+/*Viajes Chile Footer*/
 .subt-final {
     font-family: 'Stick No Bills', sans-serif;
     text-align: left;
