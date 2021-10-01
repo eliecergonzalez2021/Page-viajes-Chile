@@ -1,0 +1,59 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Stick No Bills', sans-serif;
+    background-color: #2E4053;
+}
+
+.color-nav {
+    background-color: #2E4053;
+    transition: all 1s ease;
+}
+
+
+
+
+.color-icon {
+    color: #fff;
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.subtitulo {
+    font-family: 'Oswald', sans-serif;
+}
+
+.segu-subtitulo {
+    font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif; 
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+.subt-final {
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: left;
+    top: 1265px;
+    left: 120px;
+    width: 350px;
+    height: 55px;
+}
+
+
