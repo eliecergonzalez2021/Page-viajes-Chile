@@ -49,16 +49,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item titulos-nav">
-              <a class="nav-link active inicio titulos-nav" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active inicio titulos-nav" aria-current="page" href="#" id="colortext-nav">Inicio</a>
             </li>
             <li class="nav-item titulos-nav">
-              <a class="nav-link active titulos-nav" href="#Quienes-Somos">Quienes Somos</a>
+              <a class="nav-link active titulos-nav" href="#Quienes-Somos" id="colortext-nav">Quienes Somos</a>
             </li>
             <li class="nav-item titulos-nav">
-              <a class="nav-link active titulos-nav" href="#destacados">Destacados</a>
+              <a class="nav-link active titulos-nav" href="#destacados" id="colortext-nav">Destacados</a>
             </li>
             <li class="nav-item titulos-nav">
-              <a class="nav-link active titulos-nav" href="#contacto">Contacto</a>
+              <a class="nav-link active titulos-nav" href="#contacto" id="colortext-nav">Contacto</a>
             </li>
           </ul>
         </div>
@@ -111,17 +111,19 @@
     <div class="container text-center p-4 d-none d-md-block" id="Quienes-Somos">
       <h2 class="subtitulo"><b>QUIENES SOMOS</b></h2>
 
-      <hr style="height: 2px; background-color: rgb(204, 236, 20);" class="col"/>
+      <!-- Linea entre texto -->
+      <hr id="Linea-entretexto" class="col"/>
 
+      
       <div class="row">
-        
+      
         <div class="col">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <div class="icon fa-3x">
                 <i class="fas fa-plane fa-x5"></i>
               </div> 
-              <h5 class="card-title btn btn-primary" id="Viaje">Viaje en avion</h5>
+              <h5 class="card-title btn btn-warning" id="Viaje" data-bs-toggle="tooltip" data-bs-placement="right" title="Click aquí y desaparecerá el texto">Viaje en avion</h5>
               <p class="card-text" id="texto1">Buscamos y encontramos los mejores precios en viajes al destino y entregándote las mejores alternativas para que puedas elegir el horario y la aerolínea que prefieras</p>
             </div>
           </div>
@@ -133,7 +135,7 @@
               <div class="icon fa-3x">
                 <i class="fas fa-car-side"></i>
               </div>
-              <h5 class="card-title btn btn-primary" id="traslado">Traslado al Hotel</h5>
+              <h5 class="card-title btn btn-warning" id="traslado" data-bs-toggle="tooltip" data-bs-placement="top" title="Click aquí y desaparecerá el texto">Traslado al Hotel</h5>
               <p class="card-text" id="texto2">Contamos con traslados seguros, confiables y confortables en todas las regiones del país, donde protegemos tus intereses tu equipaje y tu bolsillo.</p>
             </div>
           </div>
@@ -146,7 +148,7 @@
               <div class="icon fa-3x">
                 <i class="fas fa-hotel"></i>
               </div>
-              <h5 class="card-title btn btn-primary" id="hotel">Hotel</h5>
+              <h5 class="card-title btn btn-warning" id="hotel" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click aquí y desaparecerá el texto">Hotel</h5>
               <p class="card-text" id="texto3">Además, contamos con una red de alojamientos entre los que se encuentran: Hoteles, casas compartidas y casas exclusivas para ti y tus acompañantes en los lugares mas turísticos y con el mejor precio...</p>
             </div>
           </div>
@@ -162,7 +164,10 @@
     <section  id="destacados">
       <div class="container text-center p-4">
         <h2 class="segu-subtitulo"><b>DESTACADOS</b></h2>
-        <hr style="height: 2px; background-color: rgb(221, 236, 9);" class="col"/>
+        
+        <!-- Linea entre texto -->
+        <hr id="Linea-entretexto" class="col"/>
+      
 
         <div class="row">
           <div class="col">
@@ -212,6 +217,9 @@
       </div>
     </section>
 
+    <!-- Linea entre texto -->
+    <hr id="Linea-entretexto" class="col"/>
+
     <!-- Formulario Contacto -->
     <h2 class="text-center pb-3" id="contacto"><b>CONTACTO</b></h2>
     <div data-tf-widget="aMPjYNcm" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
@@ -229,17 +237,24 @@
               <div class="conteiner">
                 <div class="row">
                   <div class="col-4">
-                   <i class="fab fa-twitter-square fa-2x color-icon"></i>
+                    <a href="https://es.wikipedia.org/wiki/Twitter" target="_blank">
+                      <i class="fab fa-twitter-square fa-2x color-icon"></i>
+                    </a>
                   </div>
                   <div class="col-4">
-                   <i class="fab fa-google-plus-square fa-2x color-icon"></i>
+                    <a href="https://es.wikipedia.org/wiki/Google%2B" target="_blank">
+                      <i class="fab fa-google-plus-square fa-2x color-icon"></i>
+                    </a>
                   </div>
                   <div class="col-4">
-                   <i class="fab fa-facebook-square fa-2x color-icon"></i>
-                  </div>
-                </div>
-              </div> 
-           </div>
+                    <a href="https://es.wikipedia.org/wiki/Facebook" target="_blank">
+                     <i class="fab fa-facebook-square fa-2x color-icon"></i>
+                    </a>
+                   </div>
+                 </div>
+               </div> 
+            </div>
+
 
           <!-- </div> -->
 

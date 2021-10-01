@@ -13,8 +13,9 @@ body {
     transition: all 1s ease;
 }
 
-nav .inicio {
-    color: rgb(201, 15, 15);
+#colortext-nav {
+    color: indigo;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -70,6 +71,11 @@ h2 {
 }
 
 
+/*Lineas entre textos*/
+#Linea-entretexto {
+    height: 2px;
+    background-color: gold;
+}
 
 .nav-img {
     width: 40px;
