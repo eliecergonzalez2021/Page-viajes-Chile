@@ -9,7 +9,9 @@ body {
     transition: all 1s ease;
 }
 
-
+nav .inicio {
+    color: rgb(201, 15, 15);
+}
 
 
 .color-icon {

@@ -10,12 +10,24 @@ $(document).ready(function () {
     });
 
 
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
 
 
+    //remuebe "quienes somos"
+
+    $("#Viaje").click(function() {
+        $("#texto1").toggle();
+    });
 
 
+    //boton se torna rojo 
 
-
+    $("#tfinal").dblclick(function(){
+        $("#tfinal").addClass('text-danger');
+    });
 
 
   });
