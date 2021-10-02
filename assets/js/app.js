@@ -16,7 +16,7 @@ $(document).ready(function () {
     })
 
 
-    //remuebe "quienes somos"
+    //remuebe textos de tarjetas en sección "quienes somos"
 
     $("#Viaje").click(function() {
         $("#texto1").toggle();
