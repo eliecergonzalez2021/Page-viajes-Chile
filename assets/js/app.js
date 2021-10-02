@@ -31,7 +31,7 @@ $(document).ready(function () {
     });
 
 
-    //boton se torna rojo 
+    //boton se torna rojo (viajes Chile en el Footer).
 
     $("#tfinal").dblclick(function(){
         $("#tfinal").addClass('text-danger');
