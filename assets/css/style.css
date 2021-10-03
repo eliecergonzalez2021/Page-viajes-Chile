@@ -14,7 +14,7 @@ body {
 }
 
 #colortext-nav {
-    color: indigo;
+    color: #2E4053;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -40,6 +40,13 @@ body {
 .titulo-magallanes {
     color: #6CF70C;
     font-family: 'Oswald', sans-serif;
+}
+
+
+/**/
+.Texto-somos {
+    font-family: 'Oswald', sans-serif;
+    color: gold;
 }
 
 
